@@ -1,0 +1,205 @@
+body {
+    font-family:arial;
+    margin: 0; 
+    background: #e5e3ed;
+    transition: background 1s;
+    color: #666666;
+    }
+  
+  .caixa0 {
+    padding: 6px 10px 60px;
+    text-align: right;
+    text-decoration: none;
+    }
+  
+  .caixa1 { 
+    text-align:center; 
+    padding-bottom:80;
+    background: url(background.png)
+    }
+
+  .caixa1 img {
+    border-radius: 80px;
+  }
+  
+  .caixa2 { 
+    background: #741cff;  
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    }
+  
+  .caixa2 h2 {
+    font-size: 35px;
+    color: white;
+    }
+  
+  .caixahab {
+  
+    background: #741cff;
+    margin-bottom: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    }
+  
+  .hab {
+    font-family:arial;
+    text-align: center;
+    margin-top: 40px;
+    background: white;
+    height: 500px;
+    width: 320px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    
+    }
+  
+  .caixahab img {
+    padding: 30px;
+    height: 50px;
+    }
+  
+  .hab h2 {
+    color: #666666;
+    }
+  
+  .hab p {
+    color: #4C556A;
+    }
+  
+  .hab h3 {
+    font-size: 17px;
+    color: #741cff; 
+    }
+  
+  .caixa3 {
+    text-align: center;
+    text-decoration: grey;
+    padding-bottom: 50px;
+    }
+  
+  .habilidades{
+    background: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px
+    }
+  
+  .caixa0 a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #666666;
+    }
+  
+  .menu a:hover {
+    text-decoration: none; 
+    font: arial; 
+    margin-right: 20px;
+    color: blue;
+    }
+  
+  ul {
+    list-style: none;
+    }
+  
+  .caixa1 h1 { 
+    text-align:center; 
+    font-size:48px;
+    }
+  
+  
+  .caixa3 h2 {
+    font-size: 35px;
+    color: #666666
+    }
+  
+  .caixa1 p { 
+    text-align:center;
+    }
+  
+  
+  img {  
+    height: 150px   
+    }
+  
+  .linkwpp {
+    color: white;
+    background: #741cff;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+
+  .linkwpp:hover {
+    color: white;
+    background: #9d63f9;
+    transition-duration: 0.3s;
+  }
+
+  .caixa3 .linkwpp {
+    text-decoration: none;
+    color: white;
+    }
+
+  .link-list-contact a{
+    text-decoration: none;
+    color: #666666;
+    }
+
+  .link-list-contact a:hover{
+    color: #eb91f7;
+    transition-duration: 0.3s;
+    }
+
+  .h2contato {
+    padding-bottom: 50px;
+    }
+
+  .linkwpp {
+      margin-bottom: 30px;
+  }
+  
+  .link-list-contact {
+      margin-bottom: 10px;
+  }
+
+
+  .separate-contact {
+      text-align: center;
+      padding-bottom: 50px;
+  }
+
+  @media (max-width: 600px) {
+    .header {
+      display: none;
+    }
+  
+    .caixahab {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 30px;
+  
+    }
+  
+    .hab {
+      margin-right: 10px;
+      margin-left: 10px; 
+    }
+  
+    .linkwpp {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  
+    .caixa0 {
+      display: none;
+    }
+  
+    .caixa1{
+      padding-top: 15px;
+    }
+  }

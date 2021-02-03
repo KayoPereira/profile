@@ -1,0 +1,109 @@
+<html>
+
+  <head>
+    <title>Olá, sou kayo!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="caixa0">
+      <header class="header">
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="#Sobre mim" id="link-upper1" class="menu1">Sobre mim</a>
+              <a href="#Minhas Habilidades" id="link-upper2" class="menu1">Minhas habilidades</a>
+              <a href="#Fale comigo!" id="link-upper3" class="menu1">Fale comigo!</a>
+            </li>
+
+          </ul>
+
+        </nav>
+      </header>
+    </div>
+
+    <div class="caixa1">
+      
+
+      <h1 id="Sobre mim">Kayo Pereira</h1>
+      <p>Meu nome é Kayo Pereira, sou de Recife-Pe, faço graduação em Engenharia de Materiais na UFRPE,<br> sempre gostei da 
+        área de TI e estou tentando entrar profissionalmente nessa carreira.</p>
+      <img src="images/photo.jpg" onclick="purplemode()">
+    </div>
+
+    <div class="caixa2" id="Minhas Habilidades">
+      <h2>Minhas Habilidades</h2>
+      
+
+    </div>
+    
+    <div class="caixahab">
+
+      <div class="hab">
+        <img src="images/frontend.png">
+        <h2>Front-end</h2>
+        <p> Eu programo sites do zero, e levo ideias<br>do papel para o navegador, me<br>preocupando com a entrega final.
+        <h3>Linguagens:</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <h3>Ferramentas:</h3>
+        <p>React<br><br>Sinatra<br><br>SASS</p>
+      </div>
+
+      <div class="hab">
+        <img src="images/backend.png">
+        <h2>Back-end</h2>
+        <p>Desenvolvo sistemas para dar suporte<br>aos produtos web, crio APIs e tenho boa<br>experiência com banco de dados.</p>
+        <h3>Tecnologias:</h3>
+        <p>Node.js, REST, SQL, Ruby</p>
+        <h3>Ferramentas:</h3>
+        <p>SQLite<br><br>Postgres</p>
+      </div>
+    
+    </div>
+
+    <div class="caixa3" id="Fale comigo!">
+      <div class="separate-contact">
+        <h2 class="h2contato" id="h2contato">Me mande uma mensagem :)</h2>
+        <a href="https://wa.me/5581982386533" class="linkwpp" target="_blank">Me manda um Whatsapp</a>
+      </div>
+      <ul class="list-contact">
+        <li class="link-list-contact">
+          <a href="https://www.linkedin.com/in/kayo-pereira-742b0a1aa/" target="_blank">Linkedin <i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="link-list-contact">
+          <a href="https://github.com/KayoPereira" target="_blank">Github <i class="fab fa-github-square"></i></a>
+        </li>
+        <li class="link-list-contact">
+          <a href="https://twitter.com/kayokaj02" target="_blank">Twitter <i class="fab fa-twitter-square"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      let purple = false;
+
+      function purplemode () {
+        if (purple == true){
+          document.body.style.background = "#e5e3ed";        
+          document.body.style.color = "#666666";
+          document.getElementById("h2contato").style.color = "#666666";
+          document.getElementById("link-upper1").style.color = "#666666";
+          document.getElementById("link-upper2").style.color = "#666666";
+          document.getElementById("link-upper3").style.color = "#666666";
+        }else {
+          document.body.style.background = "#bcabf4";        
+          document.body.style.color = "#FFFFFF";
+          document.getElementById("h2contato").style.color = "#FFFFFF";
+          document.getElementById("link-upper1").style.color = "#FFFFFF";
+          document.getElementById("link-upper2").style.color = "#FFFFFF";
+          document.getElementById("link-upper3").style.color = "#FFFFFF";
+        }
+        purple = !purple;
+      }     
+    </script>
+  </body>
+</html>
